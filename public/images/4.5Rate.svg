@@ -1,0 +1,8 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="57" height="11" viewBox="0 0 57 11" fill="none">
+<circle cx="4.75" cy="5.5" r="4.75" fill="#BA390C"/>
+<circle cx="16.625" cy="5.5" r="4.75" fill="#BA390C"/>
+<circle cx="28.5" cy="5.5" r="4.75" fill="#BA390C"/>
+<circle cx="40.375" cy="5.5" r="4.75" fill="#BA390C"/>
+<circle cx="52.25" cy="5.5" r="4.75" fill="black" fill-opacity="0.1"/>
+<path d="M51.75 0.75C50.4902 0.75 49.282 1.25044 48.3912 2.14124C47.5004 3.03204 47 4.24022 47 5.5C47 6.75978 47.5004 7.96796 48.3912 8.85876C49.282 9.74955 50.4902 10.25 51.75 10.25L51.75 5.5L51.75 0.75Z" fill="#BA390C"/>
+</svg>
