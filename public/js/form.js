@@ -5,7 +5,7 @@ const form = document.querySelector("form"),
     tel = document.querySelector('#phone'),
     nombre = document.querySelector('#number'),
     date = document.querySelector('#date'),
-    title =  document.querySelector('#tour-title') || "Contact Page"
+    title =  document.querySelector('#tour-title').textContent || "Contact Page"
 form.addEventListener("submit", async e => {
     e.preventDefault();
     let a = fullName.value,
