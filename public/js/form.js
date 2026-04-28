@@ -8,8 +8,10 @@ const form = document.querySelector("form"),
     title =  document.querySelector('#tour-title').textContent || "Contact Page"
     console.log(title);
 form.addEventListener("submit", async e => {
+    let formHandle = document.querySelector('.w-form-done')
     e.preventDefault();
-    console.log("submited");
+    console.log("submited"); 
+    formHandle.style.display = 'block'
     let a = fullName.value,
         r = nombre.value,
         n = email.value,
@@ -17,6 +19,7 @@ form.addEventListener("submit", async e => {
         g = date.value,
         b = title,
         p = tel.value;
+        
     try {
         await axios.post("/.netlify/functions/sendEmail", {
             fullNames: a,
