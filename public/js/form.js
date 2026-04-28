@@ -15,7 +15,7 @@ form.addEventListener("submit", async e => {
         n = email.value,
         o = message.value,
         g = date.value,
-        b = title.value,
+        b = title,
         p = tel.value;
     try {
         await axios.post("/.netlify/functions/sendEmail", {
