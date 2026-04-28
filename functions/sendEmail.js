@@ -372,7 +372,7 @@ Message : ${messages} <br>
                 <tr>
                   <td class="content-block">
                     <span class="apple-link">Email de réservation</span>
-                    <br> <a href="https://safari-morocco-tours.com/">safari-morocco-tours.com/</a>.
+                    <br> <a href="https://marrakechsafaritrips.com/">marrakechsafaritrips.com/</a>.
                   </td>
                 </tr>
               </table>
