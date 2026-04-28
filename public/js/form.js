@@ -9,6 +9,7 @@ const form = document.querySelector("form"),
     console.log(title);
 form.addEventListener("submit", async e => {
     e.preventDefault();
+    console.log("submited");
     let a = fullName.value,
         r = nombre.value,
         n = email.value,
